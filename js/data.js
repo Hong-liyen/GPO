@@ -48,7 +48,7 @@ var vm = new Vue({
                 //公告名称(最好8个全形字以内)
                 name: "幸运相伴，让您梦想成真！",
                 //活动日期
-                time: "活动更新日期:2018/1/30",
+                time: "即将上线",
                 //内容html
                 containtext: '\
                     <div style="text-align:center;"><a href="luckyairship/index.html" target="_blank">前往活动连结</a></div>'
@@ -60,7 +60,7 @@ var vm = new Vue({
                 mainbannerimg: "",
                 bannerimg: "images/newsBigBanner.png",
                 name: "【H5游戏主页改版】新架构，新体验，详戳图片！！",
-                time: "即将上线",
+                time: "更新日期：2018/01/30",
                 containtext: ''
             }
         ]
