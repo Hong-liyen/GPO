@@ -4297,9 +4297,10 @@ footer .col-lg-6 p {
   background-color: #001040;
 }
 /* line 1787, ../sass/style.sass */
-.btn-area button {
+.btn-area .btn-button {
   background: url(../images/icon/airshipLogo.png) no-repeat 10% center;
   background-size: 30%;
+  outline: none;
   margin: 0 auto;
   width: 28%;
   background-color: #47b1ad;
@@ -4310,93 +4311,93 @@ footer .col-lg-6 p {
 }
 @media only screen and (max-width: 1440px) {
   /* line 1787, ../sass/style.sass */
-  .btn-area button {
+  .btn-area .btn-button {
     padding: 1.5vh;
     width: 32%;
   }
 }
 @media only screen and (max-width: 1024px) {
   /* line 1787, ../sass/style.sass */
-  .btn-area button {
+  .btn-area .btn-button {
     width: 50%;
   }
 }
 @media only screen and (max-width: 768px) {
   /* line 1787, ../sass/style.sass */
-  .btn-area button {
+  .btn-area .btn-button {
     width: 80%;
   }
 }
-/* line 1804, ../sass/style.sass */
-.btn-area button:hover, .btn-area button:focus {
+/* line 1805, ../sass/style.sass */
+.btn-area .btn-button:hover, .btn-area .btn-button:focus {
   transition: all 0.5s;
   color: #fff;
   opacity: 0.7;
 }
-/* line 1808, ../sass/style.sass */
-.btn-area button .btn-text {
+/* line 1809, ../sass/style.sass */
+.btn-area .btn-button .btn-text {
   margin-left: 12vw;
 }
 @media only screen and (max-width: 1440px) {
-  /* line 1808, ../sass/style.sass */
-  .btn-area button .btn-text {
+  /* line 1809, ../sass/style.sass */
+  .btn-area .btn-button .btn-text {
     margin-left: 14vw;
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 1808, ../sass/style.sass */
-  .btn-area button .btn-text {
+  /* line 1809, ../sass/style.sass */
+  .btn-area .btn-button .btn-text {
     margin-left: 20vw;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 1808, ../sass/style.sass */
-  .btn-area button .btn-text {
+  /* line 1809, ../sass/style.sass */
+  .btn-area .btn-button .btn-text {
     margin-left: 30vw;
   }
 }
-/* line 1816, ../sass/style.sass */
-.btn-area button h4, .btn-area button p {
+/* line 1817, ../sass/style.sass */
+.btn-area .btn-button h4, .btn-area .btn-button p {
   margin: 0;
   text-align: left;
   line-height: 1.4;
   text-shadow: 1px 2px 0px #1e837f;
 }
-/* line 1821, ../sass/style.sass */
-.btn-area button h4 {
+/* line 1822, ../sass/style.sass */
+.btn-area .btn-button h4 {
   font-size: 4.5vh;
 }
 @media only screen and (max-width: 1440px) {
-  /* line 1821, ../sass/style.sass */
-  .btn-area button h4 {
+  /* line 1822, ../sass/style.sass */
+  .btn-area .btn-button h4 {
     font-size: 3.8vh;
   }
 }
 @media only screen and (max-width: 425px) {
-  /* line 1821, ../sass/style.sass */
-  .btn-area button h4 {
+  /* line 1822, ../sass/style.sass */
+  .btn-area .btn-button h4 {
     font-size: 2.8vh;
   }
 }
-/* line 1827, ../sass/style.sass */
-.btn-area button h4 img {
+/* line 1828, ../sass/style.sass */
+.btn-area .btn-button h4 img {
   width: 12%;
   margin-left: 0.5vh;
 }
-/* line 1831, ../sass/style.sass */
-.btn-area button p {
+/* line 1832, ../sass/style.sass */
+.btn-area .btn-button p {
   font-size: 2vh;
   letter-spacing: 1px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 1831, ../sass/style.sass */
-  .btn-area button p {
+  /* line 1832, ../sass/style.sass */
+  .btn-area .btn-button p {
     font-size: 2.5vh;
   }
 }
 @media only screen and (max-width: 425px) {
-  /* line 1831, ../sass/style.sass */
-  .btn-area button p {
+  /* line 1832, ../sass/style.sass */
+  .btn-area .btn-button p {
     font-size: 1.8vh;
   }
 }
